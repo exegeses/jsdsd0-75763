@@ -1,0 +1,10 @@
+body{
+    background-color: hsl(198, 50%, 8%);
+    color: hsl(198, 50%, 86%);
+}
+
+#derecha{
+    background-color: hsl(198, 50%, 4%);
+    display: flex;
+    justify-content: end;
+}
