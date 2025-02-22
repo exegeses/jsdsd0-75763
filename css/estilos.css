@@ -1,0 +1,41 @@
+@import url(https://fonts.bunny.net/css?family=advent-pro:200,400,600);
+
+body{
+    width: 768px;
+    margin: 40px auto;
+    background-color: hsl(198, 50%, 8%);
+    color: hsl(198, 50%, 86%);
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+}
+h1, h2{
+    font-weight: 200;
+}
+
+#derecha{
+    background-color: hsl(198, 50%, 4%);
+    display: flex;
+    justify-content: end;
+}
+
+nav a{
+    padding: 8px 32px;
+    background-color: hsl(198, 50%, 50%);
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    transition: 500ms; 
+}
+nav a:hover{
+    box-shadow: 0 0 8px  hsl(198, 50%, 80%);;
+}
+#caja{
+    width: 216px;
+    height: 216px;
+    margin: 40px;
+    padding: 24px;
+    background-color: hsl(198, 20%, 50%);
+    border-radius: 8px;
+    transition: 500ms;
+}

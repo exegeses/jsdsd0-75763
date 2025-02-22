@@ -1,6 +1,9 @@
+@import url(https://fonts.bunny.net/css?family=advent-pro:200,400,600);
+
 body{
     background-color: hsl(198, 50%, 8%);
     color: hsl(198, 50%, 86%);
+    font-family: 'Advent Pro', sans-serif;
 }
 
 #derecha{
