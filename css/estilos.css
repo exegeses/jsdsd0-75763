@@ -6,7 +6,7 @@ body{
     background-color: hsl(198, 50%, 8%);
     color: hsl(198, 50%, 86%);
     font-family: 'Advent Pro', sans-serif;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 200;
 }
 h1, h2{
@@ -39,3 +39,20 @@ nav a:hover{
     border-radius: 8px;
     transition: 500ms;
 }
+
+#uno{
+    height: 360px;
+    background-color: #4e5628;
+}
+/* descendente:  padre hijo */
+    #uno article{
+        background-color: #839466;
+        height: 64px;
+        width: 216px;
+        border: 1px solid hsl(0, 0%, 100%);
+    }
+    #uno #segundo{
+        background-color: #0e0f0a;
+        color: white;
+    }
+
